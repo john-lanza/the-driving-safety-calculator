@@ -1,0 +1,85 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.border {
+    border: 10px solid #003366; /* Dark blue border */
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-y: auto; /* Enable scrolling */
+}
+
+.stripey-section {
+    background: repeating-linear-gradient(
+        45deg,
+        #e0f7fa,
+        #e0f7fa 20px,
+        #ffffff 20px,
+        #ffffff 40px
+    ); /* Stripey light blue and white background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.welcome-box {
+    background: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-box h1 {
+    margin: 0;
+    font-size: 32px;
+    color: #003366; /* Dark blue text */
+}
+
+.welcome-box p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.dark-section {
+    background-color: #003366; /* Solid dark blue background */
+    color: white;
+    padding: 50px 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dark-section h2 {
+    margin: 0;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.dropdown-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.dropdown-container label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.dropdown-container select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    width: 200px;
+}
